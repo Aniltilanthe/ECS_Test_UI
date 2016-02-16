@@ -1,0 +1,208 @@
+html {
+    height: 100%;
+}
+
+.page-header {
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    border-bottom: 0 !important;
+}
+
+.page-header .navbar-nav {
+    float: right;
+}
+
+.page-header > div > div, .page-header > div > ul {
+    display: inline-block;
+}
+
+.content {
+    margin-top: 30px;
+    width: 100%
+}
+
+body {
+    background: url("/system/assets/img/bg.png");
+    height: 100%;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'futura_bkbook';
+    src: url("/theme/assets/fonts/ufonts.com_futura-book.eot");
+    src: url("/theme/assets/fonts/ufonts.com_futura-book.eot?#iefix") format("embedded-opentype"), url("/theme/assets/fonts/ufonts.com_futura-book.woff") format("woff"), url("/theme/assets/fonts/ufonts.com_futura-book.ttf") format("truetype"), url("/theme/assets/fonts/ufonts.com_futura-book.svg#futura_bkbook") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_hebrewregular';
+    src: url("/theme/assets/fonts/opensanshebrew-regular.eot");
+    src: url("/theme/assets/fonts/opensanshebrew-regular.eot?#iefix") format("embedded-opentype"), url("/theme/assets/fonts/opensanshebrew-regular.woff") format("woff"), url("/theme/assets/fonts/opensanshebrew-regular.ttf") format("truetype"), url("/theme/assets/fonts/opensanshebrew-regular.svg#open_sans_hebrewregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_hebrewlight';
+    src: url("/theme/assets/fonts/opensanshebrew-light.eot");
+    src: url("/theme/assets/fonts/opensanshebrew-light.eot?#iefix") format("embedded-opentype"), url("/theme/assets/fonts/opensanshebrew-light.woff") format("woff"), url("/theme/assets/fonts/opensanshebrew-light.ttf") format("truetype"), url("/theme/assets/fonts/opensanshebrew-light.svg#open_sans_hebrewlight") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url("/theme/assets/fonts/mark_simonson_-_proxima_nova_regular.eot");
+    src: url("/theme/assets/fonts/mark_simonson_-_proxima_nova_regular.eot?#iefix") format("embedded-opentype"), url("/theme/assets/fonts/mark_simonson_-_proxima_nova_regular.woff") format("woff"), url("/theme/assets/fonts/mark_simonson_-_proxima_nova_regular.ttf") format("truetype"), url("/theme/assets/fonts/mark_simonson_-_proxima_nova_regular.svg#proxima_nova_rgregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url("/theme/assets/fonts/proximanova-light.eot");
+    src: url("/theme/assets/fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("/theme/assets/fonts/proximanova-light.woff") format("woff"), url("/theme/assets/fonts/proximanova-light.ttf") format("truetype"), url("/theme/assets/fonts/proximanova-light.svg#proxima_novalight") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+.form {
+    margin-top: 35px;
+    left: 50%;
+    position: relative;
+}
+
+.main-form {
+    width: 748px;
+    height: 600px;
+    margin-left: -374px;
+}
+
+.main-form.register-form {
+    height: 622px;
+}
+
+.login-form__left {
+    width: 600px;
+    height: 100%;
+    float: left;
+    padding: 34px 0 0 27px;
+    background: url("/system/assets/img/background3.png") no-repeat; 
+
+}
+
+.login-form__left h2 {
+    font-size: 30px;
+    padding-bottom: 4px;
+    font-family: "futura_bkbook";
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.login-form__left p {
+    font-size: 16px;
+    font-family: 'proxima_nova_rgregular';
+}
+
+.main-form .input-wrapper {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.main-form .input-wrapper input {
+    width: 401px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 18px 0 18px 16px;
+    outline: none;
+    font-size: 15px;
+    font-family: 'proxima_nova_rgregular';
+    line-height: 22px;
+}
+
+.main-form .input-wrapper input:invalid {
+    box-shadow: none;
+}
+
+.main-form .input-wrapper input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+}
+
+.box.login {
+    left: 12%;
+    width: 400px;
+    top: 25%;
+    position: absolute;
+}
+
+.long-btn {
+    width: 195px;
+}
+
+.pic.email {
+    position: absolute;
+    background: url("/system/assets/img/mail_login.png") no-repeat;
+    width: 30px;
+    height: 21px;
+    top: 18px;
+    right: 28px;
+}
+
+.pic.number {
+    position: absolute;
+    background: url("/system/assets/img/call.png") no-repeat ;
+    width: 30px;
+    height: 21px;
+    top: 18px;
+    right: 28px;   
+    border: none;
+}
+
+.pic.user {
+    position: absolute;
+    background: url("/system/assets/img/person.png") no-repeat 50% 50%;
+    width: 30px;
+    height: 45px;
+    top: 18px;
+    right: 28px;
+}
+
+.pic.play {
+    position: absolute;
+    background: url("/system/assets/img/play_button.png") no-repeat;
+    width: 40px;
+    height: 30px;
+    left: 90px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+.pic.wave {
+    position: absolute;
+    background: url("/system/assets/img/waves.png") no-repeat;
+    width: 50px;
+    height: 30px;
+    left: 270px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.centre {
+    position: absolute;
+    left: 90px;
+    margin-top: 30px;
+}
+
+.login-right {
+    height: 60%;
+    float: left;
+    background: url("/system/assets/img/background2.png") no-repeat 50% 30%;
+    width: 100%;
+    left: 300px;
+    position: absolute;
+    z-index: -10;
+    top: 1px;
+}

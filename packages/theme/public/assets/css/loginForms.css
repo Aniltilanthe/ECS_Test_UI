@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+}
+
+body.login, body.register,  body.forgot-password {
+    background: url("/theme/assets/img/bg.png");
+    height: 100%;
+    position: relative;
+}
+@font-face {
+    font-family: 'futura_bkbook';
+    src: url("/theme/assets/fonts/ufonts.com_futura-book.eot");
+    src: url("/theme/assets/fonts/ufonts.com_futura-book.eot?#iefix") format("embedded-opentype"), url("/theme/assets/fonts/ufonts.com_futura-book.woff") format("woff"), url("/theme/assets/fonts/ufonts.com_futura-book.ttf") format("truetype"), url("/theme/assets/fonts/ufonts.com_futura-book.svg#futura_bkbook") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_hebrewregular';
+    src: url("/theme/assets/fonts/opensanshebrew-regular.eot");
+    src: url("/theme/assets/fonts/opensanshebrew-regular.eot?#iefix") format("embedded-opentype"), url("/theme/assets/fonts/opensanshebrew-regular.woff") format("woff"), url("/theme/assets/fonts/opensanshebrew-regular.ttf") format("truetype"), url("/theme/assets/fonts/opensanshebrew-regular.svg#open_sans_hebrewregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_hebrewlight';
+    src: url("/theme/assets/fonts/opensanshebrew-light.eot");
+    src: url("/theme/assets/fonts/opensanshebrew-light.eot?#iefix") format("embedded-opentype"), url("/theme/assets/fonts/opensanshebrew-light.woff") format("woff"), url("/theme/assets/fonts/opensanshebrew-light.ttf") format("truetype"), url("/theme/assets/fonts/opensanshebrew-light.svg#open_sans_hebrewlight") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url("/theme/assets/fonts/mark_simonson_-_proxima_nova_regular.eot");
+    src: url("/theme/assets/fonts/mark_simonson_-_proxima_nova_regular.eot?#iefix") format("embedded-opentype"), url("/theme/assets/fonts/mark_simonson_-_proxima_nova_regular.woff") format("woff"), url("/theme/assets/fonts/mark_simonson_-_proxima_nova_regular.ttf") format("truetype"), url("/theme/assets/fonts/mark_simonson_-_proxima_nova_regular.svg#proxima_nova_rgregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url("/theme/assets/fonts/proximanova-light.eot");
+    src: url("/theme/assets/fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("/theme/assets/fonts/proximanova-light.woff") format("woff"), url("/theme/assets/fonts/proximanova-light.ttf") format("truetype"), url("/theme/assets/fonts/proximanova-light.svg#proxima_novalight") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}

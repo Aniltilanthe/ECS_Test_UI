@@ -1,0 +1,51 @@
+<div class="form main-form" ng-controller="AuthCtrl">
+    <div class="login-form__left" ui-view>
+       <div data-ng-controller="LoginCtrl" class="box login">
+          <form id="login_form" ng-submit="login()">
+            <div class="input-wrapper">
+                <input required id="name_block" type="name" name="name" placeholder="اسم" ng-model="user.name">
+                <span class="pic user"></span>
+            </div>
+            <div class="input-wrapper">
+                <input required id="number_block" type="number" name="number" placeholder="عدد" ng-model="user.number">
+                <span class="pic number img-thumbnail"></span>
+            </div>
+            <div class="input-wrapper">
+                <input required id="email_block" type="email" name="email" placeholder="بريد" ng-model="user.email">
+                <span class="pic email"></span>
+            </div>
+
+            <div class="button_login">
+                <button type="submit" class="btn-primary btn-lg long-btn">Record</button>
+                <button type="submit" class="btn-default btn-lg long-btn">Upload</button>
+                <br>
+                <a ui-sref='auth.register' > </a>
+                <span class="pic play"></span>
+                <span class="pic wave"></span>
+            </div>
+            <br>
+            <div class="button send">
+                <button type="submit" class="btn-primary btn-lg long-btn centre">Send</button>
+            </div>
+        </form>
+       </div>
+    </div>
+
+    <div class="row login-right " data-ng-controller="AuthCtrl">
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
